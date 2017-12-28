@@ -1,3 +1,12 @@
 body {
-  
+
+}
+
+header{
+  border: 0px 0px 2px 0px black solid;
+}
+
+nav {
+  color: black;
+  font-weight: bold;
 }
