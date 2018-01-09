@@ -3,10 +3,28 @@ body {
 }
 
 header{
-  border: 0px 0px 2px 0px black solid;
+  display: inline-flex;
+  border-bottom: 2px black solid;
+  max-width: 1200px;
+  height: auto;
 }
 
-nav {
-  color: black;
+a, p {
+  font-family: Verdana;
+  font-size: 14px;
   font-weight: bold;
+}
+
+a {
+  color: black;
+}
+
+p {
+  color: MediumAquamarine;
+}
+
+.headnav {
+  max-width: 1200px;
+  display: flex;
+  justify-content: flex-end;
 }
