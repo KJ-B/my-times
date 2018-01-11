@@ -44,3 +44,13 @@ img{
 .headnav {
   padding: 0px 30px;
 }
+
+.container {
+  font-size: 14px;
+  display: flex;
+  width: auto;
+}
+
+div, container {
+  border: black 2px solid;
+}
