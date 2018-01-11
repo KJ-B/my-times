@@ -2,10 +2,13 @@ body {
 
 }
 
-header{
-  display: inline-flex;
-  border-bottom: 1px black solid;
+header, span, .headnav {
   width: 100%;
+}
+
+header{
+  display: flex;
+  border-bottom: 1px black solid;
   height: 80px;
   align-items: center;
 }
@@ -26,7 +29,6 @@ span {
 }
 
 .headnav {
-  width: 100%;
   display: flex;
   justify-content: flex-end;
 }
