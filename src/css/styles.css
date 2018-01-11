@@ -4,12 +4,13 @@ body {
 
 header{
   display: inline-flex;
-  border-bottom: 2px black solid;
-  max-width: 1200px;
-  height: auto;
+  border-bottom: 1px black solid;
+  width: 100%;
+  height: 80px;
+  align-items: center;
 }
 
-a, p {
+a, span{
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
@@ -19,12 +20,25 @@ a {
   color: black;
 }
 
-p {
+span {
   color: MediumAquamarine;
+  padding-left: 15px;
 }
 
 .headnav {
-  max-width: 1200px;
+  width: 100%;
   display: flex;
   justify-content: flex-end;
+}
+
+.headnav a {
+  padding: 10px;
+}
+
+img{
+  padding-left: 30px;
+}
+
+.headnav {
+  padding: 0px 30px;
 }
