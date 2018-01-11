@@ -39,6 +39,7 @@ span {
 
 img{
   padding-left: 30px;
+
 }
 
 .headnav {
@@ -49,8 +50,36 @@ img{
   font-size: 14px;
   display: flex;
   width: auto;
+  margin: 55px;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 div, container {
   border: black 2px solid;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+img.{
+  width: 100%;
+}
+
+div.column.large {
+  margin-right: 20px;
+}
+
+div.column.medium, div.column.small {
+  margin: 0px 20px;
 }
