@@ -1,7 +1,3 @@
-body {
-
-}
-
 header, span, .headnav {
   width: 100%;
 }
@@ -47,17 +43,16 @@ img{
 }
 
 .container {
-  font-size: 14px;
   display: flex;
   width: auto;
   margin: 55px;
   font-family: Georgia;
-  font-size: 17px;
+  font-size: 15px;
   color: black;
 }
 
 div, container {
-  border: black 2px solid;
+  border: black 1px solid;
 }
 
 .column.large {
@@ -88,7 +83,7 @@ div.column.medium, div.column.small {
   background: url('images/img-story-main.png');
 }
 
-div.tunaphish {
+div.tunaphish, div.earthspun, div.research, div.cats {
   height: 300px;
 }
 
@@ -99,7 +94,31 @@ div.tunaphish {
   color: white;
 }
 
-
 .earthspun {
   background: url('images/img-story-2.png');
+}
+
+.research {
+  background: url('images/img-story-3.png');
+}
+
+.cats {
+  background: url('images/img-story-1.png');
+}
+
+.earthspun p, .research p, .cats p, .cookie p {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30.5px;
+  color: white;
+  text-align: center;
+  margin-top: 6px;
+}
+
+.cookie {
+  background: url('images/img-news-bite.png');
+}
+
+div.cookie {
+  height: 240px;
 }
