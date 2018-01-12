@@ -55,10 +55,6 @@ img{
   justify-content: : center;
 }
 
-div, container {
-  border: black 1px solid;
-}
-
 .column.large {
   width: 630px;
 }
@@ -73,6 +69,14 @@ div, container {
 
 img.{
   width: 100%;
+}
+
+h2 {
+margin: 0px 0px;
+font-family: Georgia;
+font-size: 30px;
+font-weight: bold;
+font-style: normal;
 }
 
 div.column.large {
@@ -113,7 +117,7 @@ div.tunaphish, div.earthspun, div.research, div.cats {
 .earthspun p, .research p, .cats p, .cookie p {
   font-family: Georgia;
   font-weight: bold;
-  font-size: 30.5px;
+  font-size: 30px;
   color: white;
   text-align: center;
   margin-top: 6px;
@@ -127,11 +131,32 @@ div.cookie {
   height: 240px;
 }
 
-div.earthspun, .earthspun p, div.orcacopy, .orcacopy p , div.research, div.burgercopy {
+div.earthspun, div.research {
   width: 300px;
   display: inline-flex;
 }
 
+div.orcacopy, div.burgercopy {
+  width: 300px;
+  display: inline-block;
+}
+
 .orcacopy, .burgercopy {
   width: 300px;
+}
+
+div.orcacopy, div.burgercopy {
+  margin-bottom: 15px;
+}
+
+div.earthspun, div.research{
+  margin-top: 15px;
+}
+
+div.orcacopy {
+  margin-right: 24px;
+}
+
+div.earthspun {
+  margin-right: 24px;
 }
