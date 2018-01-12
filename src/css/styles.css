@@ -23,7 +23,7 @@ a {
   color: black;
 }
 
-span {
+.first span {
   color: MediumAquamarine;
   padding-left: 15px;
 }
@@ -82,4 +82,24 @@ div.column.large {
 
 div.column.medium, div.column.small {
   margin: 0px 20px;
+}
+
+.tunaphish {
+  background: url('images/img-story-main.png');
+}
+
+div.tunaphish {
+  height: 300px;
+}
+
+.tunaphish span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+
+.earthspun {
+  background: url('images/img-story-2.png');
 }
