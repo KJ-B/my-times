@@ -71,13 +71,23 @@ img.{
   width: 100%;
 }
 
-h2 {
+h2, h3 {
 margin: 0px 0px;
 font-family: Georgia;
-font-size: 30px;
 font-weight: bold;
 font-style: normal;
 }
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
 
 div.column.large {
   margin-right: 15px;
@@ -146,7 +156,7 @@ div.orcacopy, div.burgercopy {
 }
 
 div.orcacopy, div.burgercopy {
-  margin-bottom: 15px;
+  margin: 15px 0px 15px 0px;
 }
 
 div.earthspun, div.research{
@@ -154,9 +164,32 @@ div.earthspun, div.research{
 }
 
 div.orcacopy {
-  margin-right: 24px;
+  margin-right: 26px;
 }
 
 div.earthspun {
-  margin-right: 24px;
+  margin-right: 26px;
+}
+
+ .newstopics{
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  font-weight: normal;
+  margin: 10px;
+}
+
+.newstopics p {
+  padding: 8px 22px;
+  border-bottom: black 1px solid;
+}
+
+.footer {
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
 }
