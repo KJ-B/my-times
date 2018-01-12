@@ -127,8 +127,9 @@ div.cookie {
   height: 240px;
 }
 
-div.earthspun, .earthspun p, div.orcacopy, .orcacopy p , div.research{
+div.earthspun, .earthspun p, div.orcacopy, .orcacopy p , div.research, div.burgercopy {
   width: 300px;
+  display: inline-flex;
 }
 
 .orcacopy, .burgercopy {
