@@ -44,7 +44,10 @@ img{
 
 .container {
   display: flex;
-  width: auto;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 1232px;
+  height:800px;
   margin: 55px;
   font-family: Georgia;
   font-size: 15px;
