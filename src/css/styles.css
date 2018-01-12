@@ -46,12 +46,13 @@ img{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 1232px;
-  height:800px;
-  margin: 55px;
+  width: auto;
+  margin: 55px 75px 0px 75px;
+  height: 600px;
   font-family: Georgia;
   font-size: 15px;
   color: black;
+  justify-content: : center;
 }
 
 div, container {
@@ -75,7 +76,7 @@ img.{
 }
 
 div.column.large {
-  margin-right: 20px;
+  margin-right: 15px;
 }
 
 div.column.medium, div.column.small {
@@ -124,4 +125,12 @@ div.tunaphish, div.earthspun, div.research, div.cats {
 
 div.cookie {
   height: 240px;
+}
+
+div.earthspun, .earthspun p, div.orcacopy, .orcacopy p , div.research{
+  width: 300px;
+}
+
+.orcacopy, .burgercopy {
+  width: 300px;
 }
