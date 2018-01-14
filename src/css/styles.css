@@ -113,6 +113,18 @@ div.tunaphish, div.earthspun, div.research, div.cats {
   font-weight: bold;
   font-size: 40px;
   color: white;
+  padding-left: 20px;
+}
+
+.tunaphish p {
+  padding-left: 15px;
+  justify-content: center;
+}
+
+.tunaphish, .earthspun, .research, .cats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .earthspun {
