@@ -7,8 +7,11 @@ header{
   border-bottom: 1px black solid;
   height: 80px;
   align-items: center;
-  /*position: fixed;
-  z-index: 5;*/
+  position: fixed;
+  z-index: 10;
+  background: white;
+  padding: 10px;
+  top: 0px;
 }
 
 a, span{
@@ -29,6 +32,8 @@ a {
 .headnav {
   display: flex;
   justify-content: flex-end;
+  /*position: fixed;
+  z-index: 5;*/
 }
 
 .headnav a {
@@ -50,12 +55,13 @@ img{
   flex-wrap: wrap;
   width: auto;
   margin: 55px 75px 0px 75px;
-  justify-content: space-between;
-  height: 1111px;
+  height: 1182px;
   font-family: Georgia;
   font-size: 15px;
   color: black;
-
+  position: relative;
+  top: 85px;
+  overflow: hidden;
 }
 
 .column.large {
@@ -96,7 +102,7 @@ div.column.large {
   margin-right: 15px;
 }
 
-div.column.medium, div.column.small {
+*div.column.medium, div.column.small {
   margin: 0px 20px;
 }
 
@@ -214,7 +220,6 @@ div.earthspun {
 
 span.footertimes {
   display: inline-flex;
-
 }
 
 .times {
